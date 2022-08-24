@@ -165,6 +165,10 @@ ul {
   line-height: 30px;
 }
 
+.lien li a:hover{
+  text-decoration: underline;
+}
+
 @media (min-width: 768px) {
   .nav {
       max-height: none;
