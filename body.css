@@ -7,7 +7,7 @@ body {
     background: yellow;
 }
 
-div {
+.flex-container {
     max-width: 800px;
     display: flex;
     flex-direction: column;
