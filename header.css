@@ -134,7 +134,58 @@ ul {
     transform: rotate(45deg);
     top: 0;
 }
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
 
+.flex-container,  .flex-container-about, .flex-container-blog, .flex-container-gallery{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 16px;
+}
+.flex-container {
+    background: rgb(248, 248, 66);
+}
+.flex-container-about {
+    background: rgb(85, 255, 85);
+}
+.flex-container-blog {
+    background: rgb(95, 95, 248);
+}
+.flex-container-gallery {
+    background: rgb(252, 108, 108);
+}
+footer{
+    background-color: gray;
+  }
+  
+  .footerContent{
+    display: flex;
+    justify-content: space-around;
+    padding: 24px 0;
+  }
+  
+  .title{
+    text-align: center;
+    color: #fff;
+  }
+  
+  .lien li{
+    list-style: none;
+  }
+  
+  .lien li a{
+    text-decoration: none;
+    color: #fff;
+    line-height: 30px;
+  }
 @media (min-width: 768px) {
     .nav {
         max-height: none;
